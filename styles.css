@@ -42,9 +42,8 @@ strong { font-weight: 600; }
 .project-panel { margin-top: 2.4rem; padding: 1.15rem 1.5rem 1.25rem; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
 .section-heading { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding-bottom: 0.6rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
 .section-heading h2 { margin: 0; padding: 0; border: 0; font-size: 1.2rem; }
-.animation-toggle { flex-shrink: 0; color: var(--muted); border: 1px solid var(--border); border-radius: 5px; padding: 0.3rem 0.6rem; background: var(--bg); font: inherit; font-size: 0.73rem; cursor: pointer; }
-.animation-toggle:hover { border-color: var(--accent); color: var(--accent); }
-.featured-project { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 1.5rem; align-items: center; }
+.project-entry { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 1.5rem; align-items: center; }
+.additional-project { border-top: 1px solid var(--border); margin-top: 1.25rem; padding-top: 1.25rem; }
 .project-preview { display: block; }
 .project-preview img, .pipeline img { display: block; width: 100%; border: 1px solid var(--border); border-radius: 5px; background: white; }
 .project-info h3 { margin: 0 0 0.2rem; font-size: 1.2rem; }
@@ -52,8 +51,6 @@ strong { font-weight: 600; }
 .project-info h3 a:hover { color: var(--accent); }
 .project-info p { font-size: 0.86rem; margin-bottom: 0.7rem; line-height: 1.65; }
 .project-info .project-subtitle { color: var(--muted); margin-bottom: 0.55rem; }
-.project-results { color: var(--muted); }
-.project-results strong { color: var(--text); }
 .resource-links { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
 .pill { display: inline-flex; align-items: center; min-height: 28px; padding: 0.15rem 0.75rem; border-radius: 20px; border: 1px solid var(--border); background: var(--bg); color: var(--accent); font-size: 0.77rem; line-height: 1.5; }
 .pill:hover { border-color: var(--accent); text-decoration: none; }
@@ -91,7 +88,7 @@ strong { font-weight: 600; }
   .intro { grid-template-columns: 1fr; gap: 1.25rem; }
   .intro-photo { width: 125px; height: 125px; }
   .project-panel { padding: 1rem; }
-  .featured-project { grid-template-columns: 1fr; gap: 1.1rem; }
+  .project-entry { grid-template-columns: 1fr; gap: 1.1rem; }
   .project-preview { max-width: 320px; }
   .section-heading h2 { font-size: 1.1rem; }
   .pipeline-grid { gap: 0.65rem; }
@@ -100,7 +97,7 @@ strong { font-weight: 600; }
 }
 @media print {
   :root { --bg: white; --text: black; --muted: #444; --border: #ccc; --panel: white; --accent: black; font-size: 11pt; }
-  .site-header, .animation-toggle, .pipeline, .site-footer, .skip-link { display: none; }
+  .site-header, .pipeline, .site-footer, .skip-link { display: none; }
   .container { padding: 0; max-width: none; }
   .publication, .resume-entry, .project-panel { break-inside: avoid; }
   .pill { border: 0; padding: 0; margin-right: 0.6rem; }

@@ -2,7 +2,7 @@
 
 A static academic homepage for **https://farbod82.github.io/**, inspired by
 [Xue Bin Peng's homepage](https://xbpeng.github.io/). It includes a biography,
-four publications, SkelGGCNN animations, education, teaching, and the supplied CV.
+four publications, SkelGGCNN and SenseTask projects, education, teaching, and the supplied CV.
 
 ## Preview locally
 
@@ -43,10 +43,9 @@ gh workflow run pages.yml
 - **Appearance and responsive layout:** `styles.css`.
 - **CV:** replace `CV.pdf`, keeping the filename.
 - **Profile photograph:** replace `profile_image.png`.
-- **Animated demonstrations:** replace the GIFs and matching PNG poster frames in
-  `assets/`. Update the HTML's width/height values if the image dimensions change.
-- **Animation controls:** `script.js`. Animations respect reduced-motion settings
-  and can be paused. With JavaScript disabled, the static poster images remain.
+- **Animated demonstrations:** replace the GIFs in `assets/`. Update the HTML's
+  width/height values if the image dimensions change. GIFs play automatically
+  and loop continuously; no JavaScript or playback controls are required.
 
 Run `npm run build` to generate `dist/`, which contains only public site files.
 The original root files also work with GitHub's `main` / root publishing option.
@@ -58,6 +57,7 @@ The original root files also work with GitHub's `main` / root publishing option.
   on the homepage. SenseTask remains labeled **preprint**, as in the CV.
 - Profile photograph: the supplied `profile_image.png`, displayed with a CSS crop.
 - Project animations: [Farbod82/SkelGGCNN, docs/assets](https://github.com/Farbod82/SkelGGCNN/tree/main/docs/assets).
+- SenseTask project description and link: [SenseTask](https://sensetask.net/).
 - Paper links are the original links embedded in the CV.
 - The layout is an original implementation inspired by the reference; no reference
   page text, tracking code, or research images have been copied.

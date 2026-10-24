@@ -14,8 +14,7 @@
     <meta property="og:image" content="https://farbod82.github.io/profile_image.png">
     <meta name="twitter:card" content="summary">
     <link rel="icon" href="profile_image.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css?v=projects-2">
   </head>
   <body id="top">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -52,18 +51,16 @@
 
       <section class="project-panel" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
-          <h2 id="projects-title">Featured project</h2>
-          <button class="animation-toggle" type="button" hidden aria-pressed="false">Play animations</button>
+          <h2 id="projects-title">Projects</h2>
         </div>
-        <article class="featured-project">
+        <article class="project-entry">
           <a class="project-preview" href="https://github.com/Farbod82/SkelGGCNN" aria-label="SkelGGCNN source code on GitHub">
-            <img class="animated-demo" src="assets/skelggcnn-grasps.png" data-animation="assets/skelggcnn-grasps.gif" data-poster="assets/skelggcnn-grasps.png" width="800" height="800" alt="A rotating 3D object with geometry-aware parallel-jaw grasp candidates">
+            <img src="assets/skelggcnn-grasps.gif" width="800" height="800" alt="A rotating 3D object with geometry-aware parallel-jaw grasp candidates">
           </a>
           <div class="project-info">
             <h3><a href="https://github.com/Farbod82/SkelGGCNN">SkelGG-CNN</a></h3>
             <p class="project-subtitle">Geometry-aware robotic grasping</p>
             <p>An automated straight-skeleton pipeline for generating grasp labels without manual annotation, connecting 4-DoF learning with 6-DoF execution.</p>
-            <p class="project-results"><strong>97.4%</strong> real-world grasp success on single objects; <strong>95.0%</strong> in cluttered scenes.</p>
             <div class="resource-links">
               <a class="pill" href="https://github.com/Farbod82/SkelGGCNN">Code</a>
               <a class="pill" href="https://doi.org/10.1177/02783649261477772">Paper</a>
@@ -74,15 +71,24 @@
           <summary>Explore the geometry pipeline</summary>
           <div class="pipeline-grid">
             <figure>
-              <img class="animated-demo" src="assets/skelggcnn-skeleton.png" data-animation="assets/skelggcnn-skeleton.gif" data-poster="assets/skelggcnn-skeleton.png" width="800" height="800" loading="lazy" alt="A rotating object point cloud with its connected 3D skeleton graph">
+              <img src="assets/skelggcnn-skeleton.gif" width="800" height="800" loading="lazy" alt="A rotating object point cloud with its connected 3D skeleton graph">
               <figcaption>3D skeleton graph</figcaption>
             </figure>
             <figure>
-              <img class="animated-demo" src="assets/skelggcnn-sections.png" data-animation="assets/skelggcnn-sections.gif" data-poster="assets/skelggcnn-sections.png" width="800" height="800" loading="lazy" alt="Cross-sectional planes and polygons used to generate grasp candidates">
+              <img src="assets/skelggcnn-sections.gif" width="800" height="800" loading="lazy" alt="Cross-sectional planes and polygons used to generate grasp candidates">
               <figcaption>2D sections and polygons</figcaption>
             </figure>
           </div>
         </details>
+        <article class="project-info additional-project">
+          <h3><a href="https://sensetask.net/">SenseTask</a></h3>
+          <p class="project-subtitle">Task-oriented robotic grasping dataset</p>
+          <p>A 3D object dataset with task-specific part annotations and grasp poses for functional robotic manipulation, including pouring, tool use, and opening or closing objects.</p>
+          <div class="resource-links">
+            <a class="pill" href="https://sensetask.net/">Project page</a>
+            <a class="pill" href="https://ssrn.com/abstract=5929537">Paper</a>
+          </div>
+        </article>
       </section>
 
       <section class="publications" id="publications" aria-labelledby="publications-title">
