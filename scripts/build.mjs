@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const output = resolve(root, 'dist');
-const files = ['index.html', 'styles.css', 'assets', 'profile_image.png', 'CV.pdf', '.nojekyll', 'robots.txt', 'sitemap.xml'];
+const files = ['index.html', 'styles.css', 'assets', 'profile_image.png', 'favicon.ico', 'CV.pdf', '.nojekyll', 'robots.txt', 'sitemap.xml'];
 
 // Check the inputs before replacing an earlier build. Only public files ship.
 await Promise.all(files.map((file) => stat(resolve(root, file))));

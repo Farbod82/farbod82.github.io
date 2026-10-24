@@ -45,6 +45,8 @@ gh workflow run pages.yml
 - **Profile photograph:** replace `profile_image.png`, then run
   `python3 scripts/prepare-profile.py` (requires Pillow) to regenerate the cropped
   PNGs in `assets/`. The page selects a version sized for the screen's pixel density.
+- **Browser-tab icon:** `favicon.ico` is transparent so the site does not use a
+  portrait or custom visible icon.
 - **Animated demonstrations:** replace the GIFs in `assets/`. Update the HTML's
   width/height values if the image dimensions change. GIFs play automatically
   and loop continuously; no JavaScript or playback controls are required.
