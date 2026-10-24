@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <title>Farbod Azimmohseni</title>
+    <meta name="description" content="Farbod Azimmohseni is an AI master's student at Sharif University of Technology researching reinforcement learning, transferable skills, and robotic manipulation.">
+    <link rel="canonical" href="https://farbod82.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Farbod Azimmohseni">
+    <meta property="og:description" content="Reinforcement learning, transferable skills, and robotic manipulation. Research, publications, and projects.">
+    <meta property="og:url" content="https://farbod82.github.io/">
+    <meta property="og:image" content="https://farbod82.github.io/profile_image.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="profile_image.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="site-name" href="#top">Farbod Azimmohseni</a>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="CV.pdf">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container" id="main">
+      <section class="intro" aria-labelledby="name">
+        <img class="intro-photo" src="profile_image.png" width="591" height="1280" alt="Farbod Azimmohseni">
+        <div class="intro-text">
+          <h1 id="name">Farbod Azimmohseni</h1>
+          <p class="affiliation">M.Sc. student in Artificial Intelligence<br>Sharif University of Technology</p>
+          <ul class="profile-links" aria-label="Contact and profiles">
+            <li><a href="mailto:farbodazimmohseni@gmail.com">Email</a></li>
+            <li><a href="CV.pdf">CV</a></li>
+            <li><a href="https://github.com/Farbod82">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/farbod-azimmohseni-677b1a203">LinkedIn</a></li>
+          </ul>
+          <p>I'm a master's student at Sharif University of Technology and a research assistant in the Robust and Interpretable Machine Learning Lab (RIML), advised by Prof. Mohammad Hossein Rohban. My research focuses on <strong>reinforcement learning and compositional generalization</strong>, with an emphasis on reusable skills that transfer to new environments and dynamics.</p>
+          <p>Previously, I worked on robotic grasping and manipulation at the Human and Robot Interaction Laboratory (TaarLab), University of Tehran, under the supervision of Prof. Mehdi Tale Masouleh. I received my B.Sc. in Computer Engineering from the University of Tehran in 2025, graduating <strong>first in my class of 96 students</strong>.</p>
+          <p class="interests"><span>Research interests</span> Reinforcement learning, robotics, continual skill discovery, latent world models, and compositional generalization.</p>
+        </div>
+      </section>
+
+      <section class="project-panel" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Featured project</h2>
+          <button class="animation-toggle" type="button" hidden aria-pressed="false">Play animations</button>
+        </div>
+        <article class="featured-project">
+          <a class="project-preview" href="https://github.com/Farbod82/SkelGGCNN" aria-label="SkelGGCNN source code on GitHub">
+            <img class="animated-demo" src="assets/skelggcnn-grasps.png" data-animation="assets/skelggcnn-grasps.gif" data-poster="assets/skelggcnn-grasps.png" width="800" height="800" alt="A rotating 3D object with geometry-aware parallel-jaw grasp candidates">
+          </a>
+          <div class="project-info">
+            <h3><a href="https://github.com/Farbod82/SkelGGCNN">SkelGG-CNN</a></h3>
+            <p class="project-subtitle">Geometry-aware robotic grasping</p>
+            <p>An automated straight-skeleton pipeline for generating grasp labels without manual annotation, connecting 4-DoF learning with 6-DoF execution.</p>
+            <p class="project-results"><strong>97.4%</strong> real-world grasp success on single objects; <strong>95.0%</strong> in cluttered scenes.</p>
+            <div class="resource-links">
+              <a class="pill" href="https://github.com/Farbod82/SkelGGCNN">Code</a>
+              <a class="pill" href="https://doi.org/10.1177/02783649261477772">Paper</a>
+            </div>
+          </div>
+        </article>
+        <details class="pipeline">
+          <summary>Explore the geometry pipeline</summary>
+          <div class="pipeline-grid">
+            <figure>
+              <img class="animated-demo" src="assets/skelggcnn-skeleton.png" data-animation="assets/skelggcnn-skeleton.gif" data-poster="assets/skelggcnn-skeleton.png" width="800" height="800" loading="lazy" alt="A rotating object point cloud with its connected 3D skeleton graph">
+              <figcaption>3D skeleton graph</figcaption>
+            </figure>
+            <figure>
+              <img class="animated-demo" src="assets/skelggcnn-sections.png" data-animation="assets/skelggcnn-sections.gif" data-poster="assets/skelggcnn-sections.png" width="800" height="800" loading="lazy" alt="Cross-sectional planes and polygons used to generate grasp candidates">
+              <figcaption>2D sections and polygons</figcaption>
+            </figure>
+          </div>
+        </details>
+      </section>
+
+      <section class="publications" id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <p class="section-note">* Equal contribution.</p>
+
+        <h3 class="year">2026</h3>
+        <article class="publication">
+          <h4><a href="https://arxiv.org/abs/2610.00676">Learning Transferable Skills Using Goal-Conditioned Bisimulation</a></h4>
+          <p class="authors">Mohammad Amin Abbasfar, <strong>Farbod Azimmohseni</strong>, Mohammad Hossein Rohban</p>
+          <p class="venue">Under review at ICLR 2027</p>
+          <div class="resource-links">
+            <a class="pill" href="https://arxiv.org/abs/2610.00676">Paper</a>
+          </div>
+        </article>
+        <article class="publication">
+          <h4><a href="https://doi.org/10.1177/02783649261477772">Skeleton-Guided Geometry-Aware Auto-Labeling for Robotic Grasping: From 4-DoF Learning to 6-DoF Execution</a></h4>
+          <p class="authors">Ali Sabzejou*, <strong>Farbod Azimmohseni*</strong>, Mehdi Tale Masouleh, Ahmad Kalhor</p>
+          <p class="venue">The International Journal of Robotics Research (IJRR), 2026</p>
+          <div class="resource-links">
+            <a class="pill" href="https://doi.org/10.1177/02783649261477772">Paper</a>
+            <a class="pill" href="https://github.com/Farbod82/SkelGGCNN">Code</a>
+          </div>
+        </article>
+
+        <h3 class="year">2025</h3>
+        <article class="publication">
+          <h4><a href="https://doi.org/10.1109/ICEE67339.2025.11213553">SGG-Net: Skeleton and Graph-Based Neural Network Approaches for Grasping Objects</a></h4>
+          <p class="authors">Alireza Beigy, <strong>Farbod Azimmohseni</strong>, Ali Sabzejou, Mehdi Tale Masouleh, Ahmad Kalhor</p>
+          <p class="venue">33rd Iranian Conference on Electrical Engineering (ICEE), 2025</p>
+          <div class="resource-links">
+            <a class="pill" href="https://doi.org/10.1109/ICEE67339.2025.11213553">Paper</a>
+            <a class="pill" href="https://github.com/TaarLab/SGG-Net">Code</a>
+          </div>
+        </article>
+        <article class="publication">
+          <h4><a href="https://ssrn.com/abstract=5929537">SenseTask: 3D Object Dataset with Task-Specific Annotations for Robotic Grasping</a></h4>
+          <p class="authors">Alireza Beigy*, <strong>Farbod Azimmohseni*</strong>, Mehdi Tale Masouleh, Ahmad Kalhor</p>
+          <p class="venue">Preprint, available at SSRN, 2025</p>
+          <div class="resource-links">
+            <a class="pill" href="https://ssrn.com/abstract=5929537">Paper</a>
+            <a class="pill" href="https://sensetask.net/">Project page</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="resume-entry">
+          <div><h3>Sharif University of Technology</h3><p>M.Sc. in Artificial Intelligence</p></div>
+          <p class="entry-date">2025 &ndash; 2027 (expected)</p>
+        </div>
+        <div class="resume-entry">
+          <div><h3>University of Tehran</h3><p>B.Sc. in Computer Engineering</p><p class="entry-detail">GPA: 19.03/20 &middot; Rank: 1/96</p></div>
+          <p class="entry-date">2021 &ndash; 2025</p>
+        </div>
+      </section>
+
+      <section id="teaching" aria-labelledby="teaching-title">
+        <h2 id="teaching-title">Teaching</h2>
+        <div class="resume-entry">
+          <div><h3>Multi-Agent Reinforcement Learning</h3><p>Head Teaching Assistant &middot; Sharif University of Technology</p></div>
+          <p class="entry-date">Fall 2026</p>
+        </div>
+        <div class="resume-entry">
+          <div><h3>Artificial Intelligence</h3><p>Teaching Assistant &middot; University of Tehran</p></div>
+          <p class="entry-date">2024 &ndash; 2025</p>
+        </div>
+        <div class="resume-entry">
+          <div><h3>Data Science</h3><p>Teaching Assistant &middot; University of Tehran</p></div>
+          <p class="entry-date">Spring 2025</p>
+        </div>
+        <div class="resume-entry">
+          <div><h3>Formal Languages and Automata Theory</h3><p>Teaching Assistant &middot; University of Tehran</p></div>
+          <p class="entry-date">2023 &ndash; 2024</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Farbod Azimmohseni <span aria-hidden="true">&middot;</span> <a href="mailto:farbodazimmohseni@gmail.com">Get in touch</a></p>
+      <p class="credit">Layout inspired by <a href="https://xbpeng.github.io/">Xue Bin Peng's homepage</a>.</p>
+    </footer>
+  </body>
+</html>
