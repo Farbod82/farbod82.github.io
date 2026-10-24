@@ -80,7 +80,6 @@ strong { font-weight: 600; }
 .resume-entry .entry-detail { font-size: 0.78rem; margin-top: 0.2rem; }
 .site-footer { max-width: calc(var(--max-width) - 3rem); margin: 0 auto; padding: 1.4rem 0 2rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem 1rem; color: var(--muted); }
 .site-footer p { font-size: 0.75rem; margin: 0; }
-.site-footer .credit { font-size: 0.7rem; }
 .site-footer span { margin: 0 0.4rem; }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #101418; --text: #e1e7ed; --muted: #a0abb7; --border: #30383f; --panel: #191f25; --accent: #8ab4f8; }
