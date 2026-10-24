@@ -54,8 +54,8 @@ The original root files also work with GitHub's `main` / root publishing option.
 ## Content and media sources
 
 - Biography, publication metadata, teaching, and education: the supplied `CV.pdf`
-  (October 2026). The ICLR paper remains labeled **under review** and SenseTask
-  remains labeled **preprint**, as in the CV.
+  (October 2026). The skill-transfer paper has no venue or review-status label
+  on the homepage. SenseTask remains labeled **preprint**, as in the CV.
 - Profile photograph: the supplied `profile_image.png`, displayed with a CSS crop.
 - Project animations: [Farbod82/SkelGGCNN, docs/assets](https://github.com/Farbod82/SkelGGCNN/tree/main/docs/assets).
 - Paper links are the original links embedded in the CV.
